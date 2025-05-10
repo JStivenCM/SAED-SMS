@@ -1,0 +1,185 @@
+.alert-btn {
+  width: 160px;
+  height: 120px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 0px 0px #000000, 0px 15px 0px 0px #c70042, 0px 16px 0px 0px #171717, inset 0px 20px 10px 5px #d0024654, 0px 17px 0px 14px #ebebeb, -15px 24px 0px 0px #f7f7f7, 0px 20px 0px 20px #e7e7e7, 0px 22px 0px 20px #00000038;
+}
+
+/* Modificaciones adicionales */
+@media (min-width: 1200px) {
+  #text-logo {
+      font-size: 3.4rem !important;
+      margin: -29px 0 -18px;
+  }
+  small#sub-text-logo {
+    font-size: 12px;
+    margin: 0 0 -7px;
+  }
+  span#sms {
+    color: #005be2;
+    font-family: lobster;
+  }
+  span#g-sms {
+    color: #a1a1a1;
+    font-family: lobster;
+  }
+}
+
+/* Cambios para dispositivos móviles */
+@media (max-width: 480px) {
+  div#datos-alertas {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+  }
+  div#navbarMenu {
+    margin-top: 15px !important;
+  }
+  a#btn-entrar-admin {
+    width: 100%;
+  }
+  a.btn.btn-primary.ms-3 {
+    margin-left: 1px !important;
+  }
+  h1#title-alerts-p {
+    font-size: 3em !important;
+  }
+  .nav-link {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 2px 0;
+  }
+  .nav-link:hover {
+    background: #d0e3ff;
+  }
+  h2#title-alerts-form {
+    font-size: 2.2em !important;
+  }
+}
+
+#text-logo {
+  font-size: 3rem !important;
+  margin: -29px 0 -18px;
+}
+
+small#sub-text-logo {
+font-size: 10px;
+margin: 0 0 -7px;
+}
+
+span#sms {
+color: #005be2;
+font-family: lobster;
+}
+
+span#g-sms {
+color: #a1a1a1;
+font-family: lobster;
+}
+
+.gap-3 {
+  gap: 3rem !important;
+}
+
+.text-danger {
+  color: #f20252 !important;
+}
+
+.bg-danger {
+  background-color: #f20252 !important;
+}
+
+h5.text-danger.fw-bold.alert-title {
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 1px 2px 5px #00000066;
+  text-transform: uppercase;
+}
+
+.btn-danger {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #f20252!important;
+  --bs-btn-border-color: #f20252!important;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #d00246!important;
+  --bs-btn-hover-border-color: #c00240!important;
+  --bs-btn-focus-shadow-rgb: 242, 2, 82;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #c00240!important;
+  --bs-btn-active-border-color: #b0023b!important;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #f20252!important;
+  --bs-btn-disabled-border-color: #f20252!important;
+}
+
+.alerta-iniciada {
+  background: repeating-linear-gradient(-45deg, black, black 20px, yellow 20px, yellow 40px);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+div#fondo-cinta {
+  background: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+span#texto-barra-p1 {
+  position: absolute;
+  color: black;
+  width: 100px;
+  text-align: center;
+}
+
+input#telefono {
+  width: 65%;
+  height: 50px;
+  max-width: 700px;
+  border: 1px solid #f20252;
+}
+
+/* CSS del login */
+form#formLogin {
+  border-radius: 10px !important;
+  border: 1px solid #005be2;
+}
+
+#alertaResultado ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.chart-box {
+  height: 100%;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* CSS para el Admin - Estadisticas */
+.estadisticas-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.estadistica-grafica {
+  flex: 1 1 500px;
+  min-width: 300px;
+  max-width: 600px;
+  height: 400px;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
